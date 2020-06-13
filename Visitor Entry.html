@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Visitor Entry</title>
+    <style>
+        inline
+    {
+    display: inline;
+
+    }
+    .border1 {border-style: solid; border-color: green;}
+    h1 {text-align: center;
+      text-decoration-color: green;
+      text-decoration-style: double;
+      color: green;
+      font-style: italic;
+      }
+      .image-margin {
+		margin-left: 320px;
+	}
+    .image1-margin {
+		margin-left:0x;
+  background-color: #cccccc;
+
+	}
+    .image2-margin {
+		margin-left:0x;
+  background-color: #cccccc;
+  margin-top: 200px;
+	}
+
+
+    </style>
+</head>
+<body>
+ <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img class="object-cover object-center rounded" alt="project" src="/images/logo.png" height="70" width="60">
+            <span class="ml-3 text-xl">Jaipur National University</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900">Home</a>
+            <a class="mr-5 hover:text-gray-900">Contact Us</a>
+            <a class="mr-5 hover:text-gray-900">About Us</a>
+            <a class="mr-5 hover:text-gray-900">Feedback</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Go-to main site
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+<hr>
+     
+      <section id="inline" class="text-gray-700 body-font">
+        <div id="border1"  class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center border-indigo-500">
+            <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                     <section class="text-gray-700 body-font relative">
+                        <div style="-ms-grid-row-align: start; float:left; float:left;" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                          
+                            <img  class="image1-margin" style= "background-color:white; left: left; position: absolute;"  alt="project" src="/images/emoji.png" height="600" width="200">
+                          </div>
+                          <div style="-ms-grid-row-align: start; float:left; float:left; float: unset;" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                            <img  class="image2-margin" style= "background-color:white; left: left; position: absolute;"  alt="project" src="/images/logonamaste.png" height="600" width="200">
+                          </div>
+
+
+                          <div style="-ms-grid-row-align: start; float:right; float:right;" class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                            <img  class="image-margin" style= "right: right; position: absolute;"  alt="project" src="/images/jnumain.jpg" height="900" width="400">
+                          </div>
+                    
+                    
+                        <div id="border1"class="flex flex-col text-center w-full mb-12">
+                        <h1 style="text-decoration-color: green;" class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-600">Visitor Entry Application Form</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Pleasee fill the form to get enry in the JNU Campus</p>
+                      </div>
+                      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                                             
+                            <div class="flex flex-wrap inline -m-2">
+                                  <span  style="display: inline;">
+                                
+                                <div class="p-2 w-full">
+                            <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="First Name" type="text"/> &nbsp; <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Last Name" type="text"/> 
+                          </div>
+                        </span>
+                          <div class="p-2 w-full">
+                            <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Email" type="email">
+                          </div>
+                         
+                          <div class="p-2 w-1/2">
+                            <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Mobile No." type="text">
+                          </div>
+                          <span>  
+                                                    <div class="p-2 w-4/2">
+                                <label for="Visit">Purpose to Visit</label>
+                                <select class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" name="Visit" id="Visit">
+                                
+                                    <option value="1" >Meeting</option>
+                                    <option value="2" >Interview</option>
+                                    <option value="3" >Event</option>
+                                    <option value="4" selected="selected">Addmission</option>
+                                    <option value="5" >Library</option>
+                                    <option value="6" >Fee Submission</option>
+                                </select>
+                          </div>
+                        </span>
+
+
+                          <div class="p-2 w-1/2">
+                            <label for="date">Date:</label>
+                            <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-600 text-base px-4 py-2" type="date" id="date" name="date">
+                          </div>
+                          <div class="p-2 w-full">
+                            <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Address"></textarea>
+                          </div>
+                          <div class="p-2 w-full">
+                            <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Submit</button>  </div>
+
+                        </div>
+                      </div>
+                      
+   
+                    </div>
+                  </section>
+      <hr>
+            </div>
+            </div>
+            </section>
+            <footer class="text-gray-700 body-font">
+                <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                  <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <span class="ml-3 text-xl"><h1> Jaipur National University</h1></span>
+                  </a>
+                  <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Made by ALS |© 2020 Jaipur National University. All Rights Reserved.
+              
+                  </p>
+                  <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </footer>
+</body>
+</html>
