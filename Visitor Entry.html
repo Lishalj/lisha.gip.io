@@ -6,6 +6,15 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Visitor Entry</title>
     <style>
+.leftbox
+{
+  float: left;
+}
+      .lebel2
+      {
+        text-align: left;
+      }
+
         inline
     {
     display: inline;
@@ -39,7 +48,7 @@
  <header class="text-gray-700 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <img class="object-cover object-center rounded" alt="project" src="C:\Users\HP\OneDrive\Documents\GitHub\lisha.gip.io\images\logo.png" height="70" width="60">
+            <img class="object-cover object-center rounded" alt="project" src="/images/logo.PNG" height="70" width="60">
             <span class="ml-3 text-xl">Jaipur National University</span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -48,7 +57,7 @@
             <a class="mr-5 hover:text-gray-900">About Us</a>
             <a class="mr-5 hover:text-gray-900">Feedback</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Go-to main site
+          <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0"><a href="https://www.jnujaipur.ac.in/" >Go-to main site</a>
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -65,8 +74,8 @@
                      
                     
                         <div id="border1"class="flex flex-col text-center w-full mb-12">
-                        <h1 style="text-decoration-color: green;" class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-600">Visitor Entry Application Form</h1>
-                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Pleasee fill the form to get enry in the JNU Campus</p>
+                        <h1 style="text-decoration-color: green;" class="sm:text-3xl text-2xl font-medium title-font mb-4 text-green-600"> Visitor Entry Application Form</h1>
+                        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Pleasee fill the form to get entry in the JNU Campus</p>
                       </div>
                       <div class="lg:w-1/2 md:w-2/3 mx-auto">
                                              
@@ -84,24 +93,39 @@
                           <div class="p-2 w-1/2">
                             <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Mobile No." type="text">
                           </div>
-                          <span>  
-                                                    <div class="p-2 w-4/2">
-                                <label style="text-align: left;" for="Visit">Purpose to Visit</label>
+ 
+ 
+ 
+                          
+                                                    <div id="leftbox" class="p-2 w-4/2">
+                                <label style="float: left;" for="campus">Campus</label>
                                 <select class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" name="Visit" id="Visit">
                                 
-                                    <option value="1" >Meeting</option>
-                                    <option value="2" >Interview</option>
-                                    <option value="3" >Event</option>
-                                    <option value="4" selected="selected">Addmission</option>
-                                    <option value="5" >Library</option>
-                                    <option value="6" >Fee Submission</option>
+                                    <option value="1" >Main Campus</option>
+                                    <option value="2" >SIILAS</option>
+                                    <option value="3" selected="selected">SADTM</option>
                                 </select>
                           </div>
-                        </span>
+                        
+                        <span>   
+                          <div id="leftbox"class="p-2 w-4/2">
+      <label id=lebel2; style="float: left;"  for="Visit">Purpose to Visit</label>
+      <select class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" name="Visit" id="Visit">
+      
+          <option value="1" >Meeting</option>
+          <option value="2" >Interview</option>
+          <option value="3" >Event</option>
+          <option value="4" selected="selected">Addmission</option>
+          <option value="5" >Library</option>
+          <option value="6" >Fee Submission</option>
+      </select>
+</div>
+</span>
 
 
-                          <div class="p-2 w-1/2">
-                            <label for="date">Date:</label>
+
+                          <div id="leftbox" class="p-2 w-4/2">
+                            <label class=lebel2; style="float: left;" for="date">Date:</label>
                             <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-600 text-base px-4 py-2" type="date" id="date" name="date">
                           </div>
                           <div class="p-2 w-full">
@@ -125,7 +149,7 @@
                   <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <span class="ml-3 text-xl"><h1> Jaipur National University</h1></span>
                   </a>
-                  <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Made by ALS |© 2020 Jaipur National University. All Rights Reserved.
+                  <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"><centre>Made by ALS |© 2020 Jaipur National University. All Rights Reserved.</centre>
               
                   </p>
                   <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
