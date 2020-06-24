@@ -7,23 +7,31 @@
     
 	<link rel="shortcut icon" href="https://www.jnujaipur.ac.in/img/favicon.jpg" type="" />
 	
-    <title>JNU Jaipur</title>
+   
+    <title>Map</title>
     <style>
-      h1 {
-         text-decoration-color: green;
-      text-decoration-style: double;
-      color: green;
-      font-style: italic;
-      }
-      #rightbox{ 
-                float:right; 
-      }
-    </style>
+        h1 {
+           text-decoration-color: green;
+        text-decoration-style: double;
+        color: green;
+        font-style: italic;
+        }
+        #rightbox{ 
+                  float:right; 
+        }
+      </style>
+      <style>
+        iframe 
+        {
+         width: 500px; /* It should not be 100% */
+         height: 500px;
+         margin-left: auto;   /* Automatic margin from left */
+         margin-right: auto; /* Automatic margin from right */
+        } 
+      </style> 
  
-</head>
-<body>
-  <header class="text-gray-700 body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+ <header class="text-gray-700 body-font">
+    <div class="container mx-auto flex flex-wrap p-10 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <img class="object-cover object-center rounded" alt="project" src="https://raw.githubusercontent.com/Lishalj/lisha.gip.io/master/images/logo.png" height="70" width="60">
         <span class="ml-3 text-xl">Jaipur National University</span>
@@ -43,32 +51,26 @@
     </div>
   </header>
   <hr>
-  <section class="text-gray-700 body-font">
-
-    <div id = "rightbox"> 
-      <form action="Visitor Entry.html" class="inline">
-      <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg" >Visitor Login</button></form>
-  <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg" >Admin Login</button>
-    </div>
+  
+</head>
+<body>
     
-    <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 style="color:MediumSeaGreen;" class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to 
-          <br class="hidden lg:inline-block">Jaipur National University
-        </h1>
-        <p class="mb-8 leading-relaxed">Jaipur National University, Jaipur, is a Private self-financed University, sponsored by Mahima Shiksha Samiti. It came into existence on October 22, 2007 through an Ordinance of the Government of Rajasthan; In 2008, after a thorough inspection by an expert panel of UGC members, the University was accorded approval under Section 2(f).
-
-          With more than 7000 students and around 600 faculty members, the University offers Under Graduate, Post Graduate  and Doctoral Programmes in various streams,  like Engineering, Pharmacy, Life and Basic Sciences, Business Management, Education, Law, Mass Media, Hotel Management, Computer and System Sciences, English Language, Social Work, Nursing, Medical and Para-Medical Courses.
+    <section  class="text-gray-700 body-font relative"><br>
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-500">SADTM Campus</h1><br>
+     <h2  class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Map to Canteen</h2>       
+            <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-center mb-16 md:mb-0 items-center text-center">
           
-          All the technical and Professional Programmes are approved by the various regulatory bodies, such as AICTE, NCTE, BCI, INC, PCI, MCI. The University is the First Private University of Rajasthan to be accredited by the National Assessment and Accreditation Council (NAAC), based on a very comprehensive Evaluation and Accreditation only after 7 years of its establishment..</p>
-      </div>
+            
+                    <div class="mapouter" style="border-style: solid; align-self: center"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=SADTM%20Confectionery&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div>
 
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="project" src="https://raw.githubusercontent.com/Lishalj/lisha.gip.io/master/images/jnumain.jpg" height="720" width="600">
-      </div>
-    </div>
-  </section>
-  <hr>
+
+                </div></div></div>
+    </section>
+        </body>
+
+<hr>
 <footer class="text-gray-700 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -119,5 +121,4 @@
     </span>
   </div>
 </footer>
-</body>
-</html> 
+</html>

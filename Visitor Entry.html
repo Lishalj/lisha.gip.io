@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    
+	<link rel="shortcut icon" href="https://www.jnujaipur.ac.in/img/favicon.jpg" type="" />
+	
     <title>Visitor Entry</title>
     <style>
 .leftbox
@@ -116,6 +119,19 @@ return true;
                          
                           <div class="p-2 w-full">
                             <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Mobile No." type="text"  required>
+                          </div>
+
+                          <div class="p-2 w-full">
+                            <label style="float: left;" for="campus">Gender</label><br>
+                           <section class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-green-500 text-base px-4 py-2" >
+                            
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male&nbsp;</label>&nbsp;&nbsp;&nbsp;
+                            <input type="radio" id="female" name="gender" value="female"required>
+                            <label for="female">Female</label>&nbsp;&nbsp;<br>
+                            <input type="radio" id="other" name="gender" value="other" required>
+                            <label for="other">Other</label> 
+                          </section>
                           </div>
  
  
