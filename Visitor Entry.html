@@ -48,27 +48,20 @@
 
     </style>
 <script>
-  function required()
+    function popup()
+    {
+      var con=document.form1.text1.value;
+if (con==" ") 
 {
-  var empt = document.form1.text1.value;
-if (empt === "")
-{
-alert("Please input a Value");
-return false;
-}
-else 
-{
-alert('Form submitted successfully!!');
-return true; 
-}
-
-    } 
-    function popup{
-      var con=alert('form sumitted successfully')
+ con=alert('Please input a value');
+  return false;
+}    
+else{ con=alert('Form sumitted successfully...!');
+return true;
     }
+    }
+</script>
 
-</script>
-</script>
 </head>
 <body>
  <header class="text-gray-700 body-font">
@@ -177,7 +170,7 @@ return true;
                             <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-green-500 text-base px-4 py-2 resize-none block" placeholder="Address"  required></textarea>
                           </div>
                           <div class="p-2 w-full">
-                      <form action="campus.html" onsubmit="required();" > <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" onClick="popup()" type="submit">Submit</button> </form> </div>
+                      <form action="campus.html" onsubmit="popup();" > <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg" onClick="popup();" type="submit">Submit</button> </form> </div>
 
                         </div>
                         </form>
@@ -203,7 +196,7 @@ return true;
           <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-4">Address</h2>
           <p>Jaipur-Agra Bypass</p>
           <p>Near New RTO office </p>
-          <p>Jagatpura, Jaipur-302017 </p>                       
+          <p>Jagatpura, Jaipur-302017 </p>   <br>                    
   
         </div>
    <br>
